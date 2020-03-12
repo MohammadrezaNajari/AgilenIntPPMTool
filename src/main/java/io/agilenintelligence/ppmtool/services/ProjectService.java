@@ -1,4 +1,4 @@
-package io.agilenintelligence.ppmtool.web;
+package io.agilenintelligence.ppmtool.services;
 
 import io.agilenintelligence.ppmtool.domin.Project;
 import io.agilenintelligence.ppmtool.repository.ProjectRepository;
