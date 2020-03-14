@@ -24,4 +24,12 @@ public class ProjectService {
             throw new ProjectIdException("Project ID '" + project.getProjectIdentifier().toUpperCase() + "' already exists");
         }
     }
+
+    public Iterable<Project> findAll(){
+        return projectRepository.findAll();
+    }
+
+
 }
+
+
